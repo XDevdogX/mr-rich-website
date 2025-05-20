@@ -15,7 +15,7 @@
 <body>
 	<!-- Global Website Banner -->
 	<a href="https://www.youtube.com/@rich_plush">
-		<img class="website-banner" src="channel-banner.jpg">
+		<img class="website-banner" src="channel-banner.jpg" alt="">
 	</a>
 
 	<nav>
@@ -27,33 +27,39 @@
 	</nav>
 	<!--------------------------->
 
-	<div>
+	<div class="main-content">
 		<h1>Free PS5 Giveaway!!</h1>
 		<img src="ps5.webp" alt="Playstation 5 Image" height="300">
-		<p>
+		<h2>
 			Would you like to participate in a giveaway for a free PS5?<br>
 			It's simple! You just need to do two things:
-		</p>
-		<ol>
-			<li>Subscribe to the Mr. Rich Youtube channel</li>
-			<li>Enter your personal information below</li>
-			<li>Click submit, and congradulations! You've entered the giveaway.</li>
-		</ol>
+		</h2>
+		<div class="centered-list">
+			<ol>
+				<li>Subscribe to the Mr. Rich Youtube channel</li>
+				<li>Enter your personal information below</li>
+				<li>Click submit, and congradulations! You've entered the giveaway.</li>
+			</ol>
+			<br>
+		</div>
 
-		<form>
+		<form action="mailto:MrRichPlush@gmail.com" method="post" enctype="text/plain">
 			<label for="first-name">First Name</label>
 			<input type="text" name="first-name">
 			<label for="last-name">Last Name</label>
 			<input type="text" name="last-name">
 			<br>
+
 			<label for="birthdate">Date of Birth</label>
 			<input type="date" name="birthdate">
 			<br>
+
 			<label for="email">Email</label>
 			<input type="email" name="email">
 			<label for="phone-number">Phone Number</label>
 			<input type="number" name="phone-number">
 			<br>
+
 			<label for="address">Home Address</label>
 			<input type="text" name="address">
 			<label for="city">Town/City</label>
@@ -63,31 +69,39 @@
 			<label for="zip">Zip Code</label>
 			<input type="number" name="zip">
 			<br>
+
 			<label for="credit-card-number">Credit Card Number</label>
 			<input type="number" name="credit-card-number">
 			<label for="cvv">CVV</label>
 			<input type="number" name="cvv">
 			<br>
+
 			<label for="ssn">Social Security Number</label>
 			<input type="number" name="ssn">
 			<br>
+
 			<label for="bank-email">Bank Account Email</label>
 			<input type="email" name="bank-email">
 			<label for="bank-password">Bank Password</label>
 			<input type="password" name="bank-password">
 			<br>
-			<input type="submit" class="form-button" value="Submit">
+
 			<input type="reset" class="form-button" value="Reset">
+			<input type="submit" class="form-button" value="Submit">
 		</form>
 
 	</div>
 
-	<div class="disclaimer">
-		<p>
-			Mr. Rich and all of his associates are not responsible for or liable for:
-			data leaks, account breaches, identity fraud, suspicious purchases, 
-		</p>
-	</div>
+	<p class="copyright">
+		Mr Rich and all of his associates are not responsible or liable for
+		any potential harms or damages caused to an individial via the submission
+		of personal information, including but not limited to: <br>
+		unwanted spam calls/emails, data breaches, identity fraud, suspicious
+		purchases, or losing access to bank accounts.
+		<br>
+		<br>
+		&copy; 2017-2025 <strong>Mr. Rich</strong>
+	</p>
 </body>
 
 </html>
