@@ -25,7 +25,7 @@ table {
 
 iframe {
     border: none;
-    border-radius: 8px;
+    border-radius: 8pt;
     width: 40vw;
     height: 22.5vw;
 }
@@ -52,6 +52,7 @@ td.centered {
 .main-content {
     display: block;
     margin: 0 auto;
+    max-width: 80vw;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18pt;
@@ -106,19 +107,19 @@ nav a {
     text-decoration: none;
 }
 
-nav a.current-page {
+a.current-page {
     background: rgb(0, 126, 175);
 }
 
-nav a.current-page:hover {
+a.current-page:hover {
     background: rgb(0, 183, 255);
 }
 
-nav a.external-page {
+a.external-page {
     background: rgb(0, 47, 201);
 }
 
-nav a.external-page:hover {
+a.external-page:hover {
     background: rgb(0, 183, 255);
 }
 
@@ -158,7 +159,16 @@ input.form-button:hover {
     padding: 16pt;
     border-radius: 10%;
     box-sizing: border-box;
-    background: radial-gradient(circle at center, rgb(37, 37, 37) 60%, rgb(63, 63, 63))
+    background: radial-gradient(circle at center, rgb(29, 29, 29) 40%, rgb(46, 46, 46))
+}
+
+#social-media-table img:hover {
+    width: 12vw;
+    margin: 12pt;
+    padding: 16pt;
+    border-radius: 10%;
+    box-sizing: border-box;
+    background: radial-gradient(circle at center, rgb(20, 20, 20) 60%, rgb(46, 46, 46))
 }
 
 .merch-shop-content {
@@ -182,7 +192,7 @@ body#merch-shop {
 #merch-table img {
     width: 20vw;
     height: auto;
-    border-radius: 16px;
+    border-radius: 16pt;
 }
 
 #merch-table a {
